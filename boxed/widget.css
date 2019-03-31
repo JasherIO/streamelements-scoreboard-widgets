@@ -1,4 +1,4 @@
-:root { 
+* { 
   --white: #f8fafc;
   --black: #3d4852;
   --blue: #5e78cc;
@@ -7,7 +7,7 @@
   --color-text-white: var(--white);
   --color-text-black: var(--black);
   
-  font-family: 'Lato', sans-serif;
+  font-family: 'Play', sans-serif;
 }
 
 #root {
@@ -24,13 +24,13 @@
 
 #teamB {
   position: fixed;
-  top: 70px;
+  top: 60px;
   left: 250px;
 }
 
 #series {
   position: fixed;
-  top: 130px;
+  top: 110px;
   left: 250px;
 }
 
@@ -66,11 +66,11 @@
 }
 
 .text-base {
-  font-size: 1.15rem;
+  font-size: 1.1rem;
 }
 
 .text-lg {
-  font-size: 3rem;
+  font-size: 2.5rem;
 }
 
 .uppercase {
