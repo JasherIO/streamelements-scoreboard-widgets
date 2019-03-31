@@ -1,0 +1,85 @@
+:root { 
+  --white: #f8fafc;
+  --black: #3d4852;
+  
+  --color-text-white: var(--white);
+  --color-text-black: var(--black);
+  
+  font-family: 'Lato', sans-serif;
+}
+
+#root {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 500px;
+  height: 80px;
+}
+
+#teamA {
+  position: fixed;
+  top: 10px;
+  left: 250px;
+  width: 500px;
+  height: 80px;
+}
+
+#teamB {
+  position: fixed;
+  top: 10px;
+  left: 1170px;
+  width: 500px;
+  height: 80px;
+}
+
+#series {
+  position: fixed;
+  top: 90px;
+  left: 860px;
+  width: 200px;
+  height: 40px;
+}
+
+.background {
+  opacity: 0; 
+  animation: appear 1s forwards;
+  animation-delay: 0.5s;
+}
+
+.name, .score, .stripe {
+  opacity: 0;
+  animation: appear 1s forwards;
+  animation-delay: 1.5s;
+}
+
+@keyframes appear {
+  100% { opacity: 1; }
+}
+
+.font-bold {
+  font-weight: 700;
+}
+
+.fill-black {
+  fill: var(--black);
+}
+
+.fill-white {
+  fill: var(--white);
+}
+
+.text-base {
+  font-size: 1.25rem;
+}
+
+.text-lg {
+  font-size: 3rem;
+}
+
+.text-xl {
+  font-size: 3.75rem;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
