@@ -40,12 +40,14 @@
   height: 40px;
 }
 
+/* Comment out to remove transitions */
 .background {
   opacity: 0; 
   animation: appear 1s forwards;
   animation-delay: 0.5s;
 }
 
+/* Comment out to remove transitions */
 .name, .score, .stripe {
   opacity: 0;
   animation: appear 1s forwards;
