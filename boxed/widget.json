@@ -1,0 +1,76 @@
+{
+  "teamAName": {
+    "type": "text",
+    "label": "Team A Name",
+    "value": ""
+  },
+  "teamAScore": {
+    "type": "dropdown",
+    "label": "Team A Score",
+    "value": 0,
+    "options": {
+      "0": 0,
+      "1": 1,
+      "2": 2,
+      "3": 3,
+      "4": 4,
+      "5": 5,
+      "6": 6,
+      "7": 7,
+      "8": 8,
+      "9": 9
+    }
+  },
+  "teamADirection": {
+    "type": "dropdown",
+    "label": "Team A Direction",
+    "value": "default",
+    "options": {
+      "default": "default",
+      "reverse": "reverse"
+    }
+  },
+  "teamBName": {
+    "type": "text",
+    "label": "Team B Name",
+    "value": ""
+  },
+  "teamBScore": {
+    "type": "dropdown",
+    "label": "Team B Score",
+    "value": 0,
+    "options": {
+      "0": 0,
+      "1": 1,
+      "2": 2,
+      "3": 3,
+      "4": 4,
+      "5": 5,
+      "6": 6,
+      "7": 7,
+      "8": 8,
+      "9": 9
+    }
+  },
+  "teamBDirection": {
+    "type": "dropdown",
+    "label": "Team B Direction",
+    "value": "default",
+    "options": {
+      "default": "default",
+      "reverse": "reverse"
+    }
+  },
+  "bestOf": {
+    "type": "dropdown",
+    "label": "Best of",
+    "value": 5,
+    "options": {
+      "1": 1,
+      "3": 3,
+      "5": 5,
+      "7": 7,
+      "9": 9
+    }
+  }
+}

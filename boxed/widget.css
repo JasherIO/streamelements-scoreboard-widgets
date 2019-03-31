@@ -1,0 +1,82 @@
+:root { 
+  --white: #f8fafc;
+  --black: #3d4852;
+  --blue: #5e78cc;
+  --orange: #e9923d;
+  
+  --color-text-white: var(--white);
+  --color-text-black: var(--black);
+  
+  font-family: 'Lato', sans-serif;
+}
+
+#root {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+#teamA {
+  position: fixed;
+  top: 10px;
+  left: 250px;
+}
+
+#teamB {
+  position: fixed;
+  top: 70px;
+  left: 250px;
+}
+
+#series {
+  position: fixed;
+  top: 130px;
+  left: 250px;
+}
+
+/* Comment out to remove transitions */
+#root {
+  opacity: 0; 
+  animation: appear 1s forwards;
+  animation-delay: 0.5s;
+}
+
+@keyframes appear {
+  100% { opacity: 1; }
+}
+
+.font-bold {
+  font-weight: 700;
+}
+
+.fill-black {
+  fill: var(--black);
+}
+
+.fill-white {
+  fill: var(--white);
+}
+
+.fill-blue {
+  fill: var(--blue);
+}
+
+.fill-orange {
+  fill: var(--orange);
+}
+
+.text-base {
+  font-size: 1.15rem;
+}
+
+.text-lg {
+  font-size: 3rem;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.opacity-50 {
+  opacity: .5;
+}
